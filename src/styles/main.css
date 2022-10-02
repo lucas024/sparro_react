@@ -1,0 +1,92 @@
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.list{
+    width: 100%;
+    border-top: 3px solid #18191f;
+    padding-top: 20px;
+}
+.list-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.list-table{
+    margin-top: 20px;
+}
+.table-element{
+    display: flex;
+    margin: auto;
+    padding: 20px 2%;
+    border-bottom: 3px solid #a1a1a1;
+}
+.element-img-wrapper{
+    padding: 20px 15px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 3px solid #18191f;
+}
+.element-img{
+    height: 100px;
+    width: 100px;
+}
+.element-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.element-top{
+    display: flex;
+    flex-direction: column;
+}
+.element-top-type{
+    color: #4d505d;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.element-top-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.element-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.element-bottom-price{
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+.element-bottom-button{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #18191f;
+    border-radius: 10px;
+    align-items: center;
+}
+.element-bottom-button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.element-bottom-button-add{
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #ffbd12;
+    padding: 3px 15px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.element-bottom-button-plus{
+    font-size: 1.6rem;
+    font-weight: 800;
+    padding: 0 5px;
+}
